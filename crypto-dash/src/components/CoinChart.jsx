@@ -86,7 +86,7 @@ const CoinChart = ({ coinId }) => {
             },
             y: {
               ticks: {
-                callback: (value) => `$${value.toLocaleString}`,
+                callback: (value) => `$${value.toLocaleString()}`,
               },
             },
           },
